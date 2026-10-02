@@ -5,9 +5,11 @@ Console.WriteLine();
 
 Console.WriteLine("Valor da Compra");
 ValorCompra = Convert.ToDouble(Console.ReadLine());
+Console.WriteLine();
 
 Console.WriteLine("Valor Pago");
 ValorPago = Convert.ToDouble(Console.ReadLine());
+Console.WriteLine();
 
 Troco = ValorPago - ValorCompra;
 
